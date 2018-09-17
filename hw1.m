@@ -36,14 +36,14 @@ HPBW_B = (70*c)/(dB*fc)
 %% TASK 2. Flux density in Wm^-2
 clc
 
-G_edge = G_T - 12;
+G_edge = G_T - 3;
 % a) Full power 
-F_full = Pout + G_edge - 10*log10(4*pi*R^2);
-F_full = 10^(F_full/10)
+F_full = Pout + G_edge - 10*log10(4*pi*R^2)
+% F_full = 10^(F_full/10)
 
 % b) 3dB output back off 
-F_half = (Pout-3) + G_edge - 10*log10(4*pi*R^2);
-F_half = 10^(F_half/10)
+F_half = (Pout-3) + G_edge - 10*log10(4*pi*R^2)
+% F_half = 10^(F_half/10)
 
 %% TASK 3. Free space path loss in dB
 clc
