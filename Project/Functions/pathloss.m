@@ -1,4 +1,4 @@
-function loss = spaceloss(R, f, flag)
+function loss = pathloss(R, f, flag)
 %UNTITLED6 Summary of this function goes here
 
 c = 3e8; 
