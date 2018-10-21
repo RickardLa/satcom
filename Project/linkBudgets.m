@@ -1,4 +1,4 @@
-%% Project
+%% UPLINK - BUOY TO SATELLITE 
 clc, clear 
 
 
